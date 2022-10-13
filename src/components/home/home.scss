@@ -1,0 +1,38 @@
+.container{
+    display: inline-block;
+    margin-top: 100px;
+    div{
+        font-size: 60px;
+    }
+}
+.typed-out{
+    overflow: hidden;
+    border-right: .30em solid orange;
+    border-radius: 4px;
+    white-space: nowrap;
+    color: white;
+    font-family: 'Roboto';
+    animation: 
+      typing 1s steps(20, end) forwards,
+      blinking 1.2s infinite;
+    font-size: 1.6rem;
+    width: 0;
+}
+.text-title{
+    font-family: 'Silk';
+    color: orange;;
+    font-size: 70px;
+}
+.subtitle-text{
+    font-family: 'Robot';
+    margin-bottom: 20px;
+    color: white;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blinking {
+  from { border-color: transparent }
+  to { border-color: orange;; }
+}
