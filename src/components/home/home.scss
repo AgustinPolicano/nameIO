@@ -36,3 +36,21 @@
   from { border-color: transparent }
   to { border-color: orange;; }
 }
+
+.App {
+  text-align: center;
+  background-image: url('../../assets/imgs/hero_bk.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.width-input{
+  width: 40%;
+}
+
+.m-auto{
+  margin: auto;
+}

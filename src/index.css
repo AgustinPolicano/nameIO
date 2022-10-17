@@ -24,3 +24,11 @@ code {
   font-family: 'Silk';
   src: url('./assets/fonts/Silkscreen-Bold.ttf');
 }
+
+.mt-10{
+  margin-top: 10px;
+}
+
+.mt-auto{
+  margin: auto;
+}
