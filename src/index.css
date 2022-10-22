@@ -25,10 +25,31 @@ code {
   src: url('./assets/fonts/Silkscreen-Bold.ttf');
 }
 
+@font-face {
+  font-family: 'Milky';
+  src: url('./assets/fonts/Milky\ Honey.ttf');
+}
+
 .mt-10{
   margin-top: 10px;
 }
 
 .mt-auto{
   margin: auto;
+}
+
+.f18{
+  font-size: 18px;
+}
+
+.f32{
+  font-size: 32px;
+}
+
+.f40{
+  font-size: 40px;
+}
+
+.f60{
+  font-size: 60px;
 }

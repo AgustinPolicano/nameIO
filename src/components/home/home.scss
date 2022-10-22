@@ -2,7 +2,7 @@
     display: inline-block;
     margin-top: 100px;
     div{
-        font-size: 60px;
+        font-size: 70px;
     }
 }
 .typed-out{
@@ -11,7 +11,7 @@
     border-radius: 4px;
     white-space: nowrap;
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Milky';
     animation: 
       typing 1s steps(20, end) forwards,
       blinking 1.2s infinite;
@@ -19,12 +19,11 @@
     width: 0;
 }
 .text-title{
-    font-family: 'Silk';
+    font-family: 'Milky';
     color: orange;;
-    font-size: 70px;
 }
 .subtitle-text{
-    font-family: 'Robot';
+    font-family: 'Roboto';
     margin-bottom: 20px;
     color: white;
 }
