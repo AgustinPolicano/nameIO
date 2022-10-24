@@ -27,6 +27,7 @@ function NameForm() {
 
   function setData(data) {
     setAge(data.age);
+    console.log(data)
   }
 
   return (
